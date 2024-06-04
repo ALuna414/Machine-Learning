@@ -1,0 +1,16 @@
+Best Train Accuracy: 0.25
+Best Test Accuracy: 0.25
+Precision Score: 0.06
+
+Recall Score: 0.25
+
+F1 Score: 0.10
+
+Best Model:
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('LDA', LinearDiscriminantAnalysis(n_components=1)),
+                ('Perceptron',
+                 Perceptron(early_stopping=True, max_iter=500, penalty='l1',
+                            tol=0.01, validation_fraction=0.8))])
+Best Params:
+{'LDA__n_components': 1, 'Perceptron__alpha': 0.0001, 'Perceptron__early_stopping': True, 'Perceptron__max_iter': 500, 'Perceptron__penalty': 'l1', 'Perceptron__tol': 0.01, 'Perceptron__validation_fraction': 0.8}

@@ -1,0 +1,14 @@
+Best Train Accuracy: 0.38
+Best Test Accuracy: 0.39
+Precision Score: 0.21
+
+Recall Score: 0.39
+
+F1 Score: 0.27
+
+Best Model:
+Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('LDA', LinearDiscriminantAnalysis(n_components=2)),
+                ('Perceptron', Perceptron())])
+Best Params:
+{'LDA__n_components': 2}A__n_components': 2, 'logisticregression__C': 0.01}
